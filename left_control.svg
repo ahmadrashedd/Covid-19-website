@@ -1,0 +1,21 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 223" width="85" height="223">
+	<title>left_control-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+		.shp1 { fill: none;stroke: #a2a5b2;stroke-linecap:round } 
+		.shp2 { fill: none;stroke: #687089;stroke-linecap:round;stroke-linejoin:round;stroke-width: 1.5 } 
+		.shp3 { fill: #f44a45 } 
+		.shp4 { fill: #a2a5b2 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="shp0" d="M0 5C0 2.24 2.24 0 5 0L80.06 0C82.82 0 85.06 2.24 85.06 5L85.06 218C85.06 220.76 82.82 223 80.06 223L5 223C2.24 223 0 220.76 0 218L0 5Z" />
+	</g>
+	<path id="Layer" class="shp1" d="M47.78 129.24L39.58 129.24" />
+	<path id="Layer" class="shp1" d="M47.78 74.07L39.58 74.07" />
+	<path id="Layer" class="shp2" d="M29.89 36.78L57.47 36.78" />
+	<path id="Layer" class="shp2" d="M43.68 22.99L43.68 50.58" />
+	<path id="Layer" class="shp2" d="M29.89 101.15L57.47 101.15" />
+	<path id="Layer" class="shp3" d="M39.91 153.18C40.68 151.25 43.42 151.25 44.19 153.18L51.75 172.24C52.35 173.75 51.24 175.39 49.61 175.39L34.49 175.39C32.86 175.39 31.75 173.75 32.35 172.24L39.91 153.18Z" />
+	<path id="Layer" class="shp4" d="M44.19 199.89C43.42 201.83 40.68 201.83 39.91 199.89L32.35 180.83C31.75 179.32 32.86 177.69 34.49 177.69L49.61 177.69C51.24 177.69 52.35 179.32 51.75 180.83L44.19 199.89Z" />
+</svg>
