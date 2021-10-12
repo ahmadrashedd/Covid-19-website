@@ -20,8 +20,8 @@ html{
     display: flex;
     flex-direction: row;
     margin-top: 32px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 5%;
+    margin-right: 5%;
     align-items: center;
     justify-content:space-between;
     align-content:flex-start;
@@ -94,7 +94,6 @@ li{
 }
 
 .landing_container{
-    margin-left: 240px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -104,6 +103,8 @@ li{
 
 }
 .landing_left{
+    margin-left: 5%;
+
     display: flex;
     flex:1;
     margin-top: 140px;
@@ -134,7 +135,7 @@ li{
 .desc{
     font-style: normal;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 44px;
     text-transform: capitalize;
     color: #4B4F51;
@@ -162,15 +163,14 @@ li{
     cursor: pointer;
 }
 .landing_right{
-    flex:2;
+    flex:1;
     order: 1;
 
 }
 
 
 .second_container{
-    margin-left: 115px;
-    margin-right: 240px;
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +224,8 @@ li{
 
 .third_section_up{
     text-align: center;
-    margin: 0 675px;
+    margin: auto;
+    width: 40%;
 }
 .third_section_down{
     display: flex;
@@ -251,7 +252,7 @@ li{
     margin: 53px  auto 12px ;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 4.5rem;
 }
 
 .item_image{
@@ -264,7 +265,7 @@ li{
 .item_desc{
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 2.25rem;
 line-height: 185%;
 margin: 0px 50px;
 margin-bottom: 87px;
@@ -302,6 +303,9 @@ text-transform: capitalize
     margin: 46px 100px;
 }
 
+.fifth_container{
+    margin: 50px auto;
+}
 .fifth_up{
 display: flex;
 flex-flow: column nowrap;
@@ -346,7 +350,7 @@ align-items: center;
     border-radius: 50%;
     width: 75px;
     height:75px;
-    font-size: 44px;
+    font-size: 5.5rem;
     color: #FA5652;
     font-weight: bold;
     background: rgb(250, 86, 82,0.15);
@@ -370,7 +374,7 @@ align-items: center;
     font-style: normal;
     width: 532px;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 2.25rem;
     color: #4B4F51;
 }
 .mask_girl{
@@ -419,7 +423,7 @@ align-items: center;
     align-items: center;
 }
 .email{ 
-    font-size: 24px;
+    font-size: 3rem;
     padding: 40px 40px ;
     border-style: none;
     width: 90%;
@@ -434,7 +438,7 @@ align-items: center;
     border-style: none;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 2.75rem;
     line-height: 26px;
     margin-left: -250px;
     width: 25%;
@@ -461,7 +465,7 @@ align-items: center;
     justify-content: center;
 }
 .footer_nav li{
-    font-size: 23px;
+    font-size: 3rem;
     font-style: normal;
     font-weight:normal;
     line-height: 28px;
@@ -478,7 +482,7 @@ align-items: center;
     font-family: Gelion;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 3rem;
     line-height: 28px;
     color: #415E56;
 }
