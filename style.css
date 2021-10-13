@@ -381,14 +381,14 @@ align-items: center;
 }
 
 .live_report{
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 150px;
-    margin-left: 185px;
-    margin-right: 195px;
     display: flex;
     flex-flow: row;
     align-items: flex-start;
-    justify-content: flex-start;
-
+    justify-content: center;
+    width: 100%;
 }
 .control{
     margin-right: -180px;
@@ -419,6 +419,7 @@ align-items: center;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: center;
 }
 .email{ 
     font-size: 3rem;
