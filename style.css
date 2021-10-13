@@ -320,8 +320,6 @@ align-items: center;
 
 .sixth_section_list{
     display: flex;
-    margin-left: 234px;
-    margin-right: 324px;
     margin-top: 72px;
     flex-flow: column nowrap;
     align-items: center;
