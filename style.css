@@ -113,6 +113,9 @@ li{
     align-content: flex-start;
     order: 0;
 }
+.landing_ill{
+    width: 100%;
+}
 .header{
     font-size: 4rem;
     color:#FB4C47;
@@ -197,6 +200,7 @@ li{
 .second_ill{
     height: auto;
     margin:auto;
+    width: 100%;
 
 }
 
@@ -224,8 +228,11 @@ li{
 
 .third_section_up{
     text-align: center;
-    margin: auto;
-    width: 40%;
+    margin: 30px  25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 .third_section_down{
     display: flex;
@@ -293,14 +300,11 @@ text-transform: capitalize
     align-content: center;
     text-align: center;
 }
-.fourth_up{
-    margin:0 602px;
-}
+
 .fourth_image{
     max-width: 100%;
     height: auto;
-    flex-shrink: 2;
-    margin: 46px 100px;
+    margin-bottom: 120px;
 }
 
 .fifth_container{
@@ -314,7 +318,6 @@ align-items: center;
 }
 .fifth_desc{
     text-align: center;
-    width: 50%;
 }
 
 
@@ -381,16 +384,17 @@ align-items: center;
 }
 
 .live_report{
+    margin-left: 5%;
     margin-right: 5%;
     margin-top: 150px;
     display: flex;
     flex-flow: row;
     align-items: flex-start;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 }
 .control{
-    margin-right: -10%;
+    margin-right: -180px;
     z-index: 1;
     box-shadow: 0px 5px 50px rgba(104, 33, 28, 0.1);
 }
@@ -418,7 +422,7 @@ align-items: center;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .email{ 
     font-size: 3rem;
@@ -438,22 +442,24 @@ align-items: center;
     font-weight: 500;
     font-size: 2.75rem;
     line-height: 26px;
-    margin-left: -250px;
+    margin-left: -30%;
     width: 25%;
     height: 78px;
     background: #F44A45;
     border-radius: 157px;
+ 
 }
 .send:hover{
     cursor: pointer;
 }
 .footer{
-    margin-left: 242px;
     margin-top: 164px;
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-start;
+    justify-content: space-around;
     gap:220px;
+    text-align: center;
 }
 .footer_nav{
     display: flex;
@@ -483,4 +489,5 @@ align-items: center;
     font-size: 3rem;
     line-height: 28px;
     color: #415E56;
+    text-align: center;
 }
