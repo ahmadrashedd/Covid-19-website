@@ -97,14 +97,15 @@ li{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
+    align-items: center;
     flex-wrap:nowrap;
+    margin-bottom: 50px;
 
 }
 .landing_left{
     margin-left: 5%;
-
     display: flex;
     flex:1;
     margin-top: 140px;
@@ -113,8 +114,12 @@ li{
     align-content: flex-start;
     order: 0;
 }
+.landing_right{
+    flex: 1;
+}
 .landing_ill{
     width: 100%;
+
 }
 .header{
     font-size: 4rem;
